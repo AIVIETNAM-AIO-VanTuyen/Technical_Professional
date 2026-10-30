@@ -1,0 +1,11 @@
+torch>=2.1
+torchvision>=0.16
+datasets>=2.18
+tokenizers>=0.15
+pyvi>=0.1.1
+# underthesea>=6.8   # tùy chọn, nếu đặt VI_SEGMENTER = "underthesea" trong src/config.py
+streamlit>=1.50
+pillow>=10.0
+numpy>=1.24
+matplotlib>=3.7
+tqdm>=4.66

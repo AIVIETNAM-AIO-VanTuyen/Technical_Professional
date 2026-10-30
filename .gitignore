@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dữ liệu & cache HuggingFace
+data/*
+!data/.gitkeep
+
+# Trọng số mô hình & tokenizer sinh ra khi train (checkpoint ~127MB)
+saved_models/*
+!saved_models/.gitkeep
+
+# Hệ điều hành / IDE
+.DS_Store
+.vscode/
+.idea/
