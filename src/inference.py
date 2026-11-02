@@ -15,7 +15,7 @@ from PIL import Image
 
 from . import config
 from .dataset import get_transform
-from .model import load_checkpoint
+from .model_rnn import load_checkpoint
 from .tokenizer_utils import decode_ids, load_tokenizer
 
 

@@ -23,7 +23,7 @@ from tqdm import tqdm
 
 from . import config
 from .dataset import CaptionStreamDataset, iter_split_captions, make_loader
-from .model import CNNtoRNN, count_parameters
+from .model_rnn import CNNtoRNN, count_parameters
 from .tokenizer_utils import build_tokenizer, decode_ids, load_tokenizer, save_tokenizer
 
 

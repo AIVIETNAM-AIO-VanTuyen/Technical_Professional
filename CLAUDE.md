@@ -18,7 +18,8 @@ saved_models/    tokenizer_{lang}.json, caption_model_{lang}_{best|last}.pth, lo
 src/config.py          mọi siêu tham số, đường dẫn, cấu hình dataset theo ngôn ngữ
 src/tokenizer_utils.py chuẩn hóa, tách từ VI, tokenizer WordLevel, encode/decode
 src/dataset.py         HF streaming -> chia split -> torch IterableDataset -> DataLoader
-src/model.py           EncoderCNN, DecoderRNN, CNNtoRNN, load_checkpoint
+src/model_cnn.py       EncoderCNN
+src/model_rnn.py       DecoderRNN, CNNtoRNN, load_checkpoint
 src/train.py           vòng lặp huấn luyện (CLI)
 src/inference.py       CaptionGenerator + CLI
 app.py                 Streamlit UI
